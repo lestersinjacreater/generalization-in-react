@@ -5,7 +5,7 @@ import Home from "../pages/Home";
 //import Dashboard from "../pages/Dashboard";
 //import Predictions from "../pages/Predictions";
 //import AdminDashboard from "../pages/AdminDashboard";
-import ProtectedRoute from "../components/ProtectedRoute";
+//import ProtectedRoute from "../components/ProtectedRoute";
 
 const AppRoutes = () => {
   return (
