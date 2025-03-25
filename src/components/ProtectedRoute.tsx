@@ -8,7 +8,7 @@ const ProtectedRoute = ({ component: Component, roles }: { component: React.FC; 
     return <Navigate to="/login" />;
   }
 
-  if (!roles.includes(user?.publicMetadata?.role)) {
+  if (!roles.includes(user?.publicMetadata?.role as string)) {
     return <Navigate to="/" />;
   }
 
